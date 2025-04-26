@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collections</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Offer Bar -->
+  <div class="offerbar">
+    <p>
+      Sign Up and <b>Get 20% OFF</b> for your first Order
+      <i class="fa-solid fa-xmark" id="close" style="cursor: pointer;"></i>
+    </p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2>Nostra</h2>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">New Arrival</a></li>
+      <li><a href="#">Most Wanted</a></li>
+      <li><a href="./index.html">Collections</a></li>
+      <li><a href="../Contact/index.html">Contact Us</a></li>
+    </ul>
+    <div class="navbar-menu-toggle">
+      <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+  </div>
+  </nav>
+  
+  <!-- Side-navbar -->
+  
+</nav>
+
+<div class="side-navbar">
+<p style="text-align: right;">
+    <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+</p>
+<div class="side-navbar-links">
+
+    <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+    <p class="side-navbar-link"><a href="#new-arrival">New Arrival</a></p>
+    <p class="side-navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+    <p class="side-navbar-link"><a href="./Collections/index.html">Collections</a></p>
+    <p class="side-navbar-link"><a href="./Contact/index.html">Contact Us</a></p>
+</div>
+
+</div>
+
+
+  <!-- Products Container -->
+  <div class="container">
+    <!-- Filter Sidebar -->
+    <div class="filter-container">
+      <div class="filter-occasion">
+        <h1>Occasion</h1>
+        <div class="checkbox">
+          <input type="checkbox" name="tag" value="summer" /> Summer <br />
+          <input type="checkbox" name="tag" value="party" /> Party <br />
+          <input type="checkbox" name="tag" value="beach" /> Beach
+        </div>
+      </div>
+      <div class="filter-color">
+        <h1>Colors</h1>
+        <div class="checkbox">
+          <input type="checkbox" name="tag" value="red" /> Red <br />
+          <input type="checkbox" name="tag" value="blue" /> Blue <br />
+          <input type="checkbox" name="tag" value="white" /> White <br />
+          <input type="checkbox" name="tag" value="green" /> Green
+        </div>
+      </div>
+      <div class="filter-arrival">
+        <h1>Arrivals</h1>
+        <div class="checkbox">
+          <input type="checkbox" name="tag" value="new" /> New <br />
+          <input type="checkbox" name="tag" value="old" /> Old
+        </div>
+      </div>
+      <hr class="vertical-line" />
+    </div>
+
+    <!-- Products Section -->
+    <div class="products-container">
+      <div class="search">
+        <input id="search-input" type="text" placeholder="search" style="border: none;" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="products"></div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="news" style="font-size: x-large; text-align: center;">
+    <h2>Join our News Letter</h2>
+    <p>
+      Signup for our email newspaper to get exclusive discounts, updates, and
+      more
+    </p>
+    <div class="input"><input  type="text" style="border: none;width: 100%;"/></div>
+    <button>
+      Subscribe <i class="fa-solid fa-arrow-right" style="color: white;"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <h2>Nostra</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, quis
+      nisi? Rem quibusdam cum porro delectus.
+    </p>
+    <div class="icon-container">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <p>@ 2025 Nostra.com</p>
+  </div>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
